@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts": "./node_modules/ts-node/dist/bin.js index.ts"
+    "ts": "./node_modules/ts-node/dist/bin.js"
   },
   "keywords": [],
   "author": "",

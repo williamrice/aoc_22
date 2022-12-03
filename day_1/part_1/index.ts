@@ -1,7 +1,9 @@
 #! /usr/bin/env node
 import * as fs from "fs";
 
-const data = fs.readFileSync("input_prod.txt", "utf8").split("\n\n");
+const data = fs
+  .readFileSync("./day_1/part_1/input_prod.txt", "utf8")
+  .split("\n\n");
 var total = [];
 data.forEach((e) => {
   let sum = 0;
